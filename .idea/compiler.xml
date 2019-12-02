@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-two" />
+        <module name="eureka-one" />
+        <module name="eureka-three" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-exam1202" options="-parameters" />
+      <module name="eureka-one" options="-parameters" />
+      <module name="eureka-three" options="-parameters" />
+      <module name="eureka-two" options="-parameters" />
+    </option>
+  </component>
+</project>
